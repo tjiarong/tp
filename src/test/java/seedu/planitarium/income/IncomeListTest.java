@@ -18,7 +18,7 @@ class IncomeListTest {
         double inputValue = 1000.00;
         test.addIncome("Salary", inputValue);
         double getInputValue = test.getIncomeValue(1);
-        assertEquals(getInputValue, inputValue);
+        assertEquals(inputValue, getInputValue);
     }
 
     @Test
